@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>identité</h1>
+
+    <form action="process.form.php" method="post">
+        <label for="Nom">Nom</label>
+        <input type="text" id="nom" name="name"> <br>
+
+        <label for="message">Message</label> <br>
+        <textarea name="" id="message" name="message"></textarea> <br>
+
+        <label for="centre d'interet">centre d'interet</label> <br>
+        
+        <select id="interet" name="interet"> <br>
+        <option value="1">Jeux</option>
+        <option value="2">Lecture</option>
+        <option value="3">Voyages</option>
+        <option value="4">Decouvertes</option>
+        </select>
+        <label>
+            <fieldset>
+                <legend>types</legend>
+        <input type="radio" name="type" value="1"> 
+        complaint <br>
+    </label>
+    <label for="">
+        <input type="radio" name="type" value="2">
+        suggestion
+    </label>
+</fieldset>
+<label>
+  <input type="checkbox" name="terms">
+   j'accepte les conditions qui me sont imposés
+</label> <br>
+<button>Envoyer</button>
+
+    </form>
+</body>
+</html>
